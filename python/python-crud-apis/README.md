@@ -32,7 +32,6 @@ python-crud-apis/
 ├── fastapi_crud_app/
 │   ├── requirements.txt
 │   ├── app/
-│   │   ├── __init__.py
 │   │   ├── db.py
 │   │   ├── main.py
 │   │   ├── models/
