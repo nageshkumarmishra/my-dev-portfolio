@@ -1,0 +1,49 @@
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 🍎 macOS
+.DS_Store
+
+# 📦 JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+
+# 📱 iOS (Xcode)
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+DerivedData/
+*.ipa
+
+# 📱 Flutter/Dart
+.flutter-plugins
+.pub-cache/
+.dart_tool/
+build/
+ios/Pods/
+android/.gradle/
+
+# 🌐 Node/Web
+node_modules/
+dist/
+*.lock
+
+# 🧪 Testing & coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+.pytest_cache/
