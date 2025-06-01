@@ -158,3 +158,9 @@ class Config:
 - [x] Unit tests
 - [x] Clean README for GitHub
 
+
+## 🖼️ Screenshots
+<img width="1463" alt="Screenshot 2025-05-25 at 16 55 24" src="https://github.com/user-attachments/assets/9e2cc6bd-9127-479a-9298-9ef5881902af" />
+
+
+

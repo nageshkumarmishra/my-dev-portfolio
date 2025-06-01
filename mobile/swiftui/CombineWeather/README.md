@@ -87,8 +87,7 @@ Run via `CMD + U` in Xcode.
 ---
 
 ## 🖼️ Screenshots
-
-> _You can include screenshots here in future: `/screenshots/` folder and embed with Markdown._
+![simulator_screenshot_EA054CCE-9386-4761-9942-4133CD53E772](https://github.com/user-attachments/assets/409b22ba-12d2-48b5-b764-52661fc761f0)
 
 ---
 

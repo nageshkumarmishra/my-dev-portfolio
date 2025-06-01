@@ -8,7 +8,7 @@ Welcome to my personal development portfolio — a collection of real-world samp
 | Tech Domain | Projects |
 |-------------|----------|
 | **Python**  | [python-crud-apis](./python/python-crud-apis) — CRUD API with Flask & FastAPI |
----
+| **Mobile**  | [CombineWeather (SwiftUI)](./mobile/swiftui/CombineWeather) — Native iOS weather app using Combine, MVVM, and Lottie |
 
 ## 🧠 What's Included
 
@@ -23,11 +23,27 @@ Welcome to my personal development portfolio — a collection of real-world samp
 
 ```
 my-dev-portfolio/
-├── README.md
+├── README.md                     ← Portfolio overview
+├── .gitignore                    ← Global ignore rules
+│
 ├── python/
-│   └── python-crud-apis/
-```
+│   ├── python-crud-apis/         ← Flask + FastAPI project
+│   └── ...                       ← Future Python projects
+│
+├── mobile/
+│   ├── swiftui/
+│   │   └── combine-weather/      ← Native iOS SwiftUI app
+│
+├── ai/
+│   └── ..../
+│
+├── java/
+│   └── ..../
+│
+├── html-css/
+│   └── ..../
 
+```
 ---
 
 ## 🧬 How to Use
