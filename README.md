@@ -1,7 +1,8 @@
-
 # 👨‍💻 My Developer Portfolio
 
 Welcome to my personal development portfolio — a collection of real-world sample apps and boilerplate projects across multiple technologies. Each project is built with clean architecture, modular code, documentation, and unit tests.
+
+---
 
 ## 🚀 Tech Domains & Sample Projects
 
@@ -9,6 +10,9 @@ Welcome to my personal development portfolio — a collection of real-world samp
 |-------------|----------|
 | **Python**  | [python-crud-apis](./python/python-crud-apis) — CRUD API with Flask & FastAPI |
 | **Mobile**  | [CombineWeather (SwiftUI)](./mobile/swiftui/CombineWeather) — Native iOS weather app using Combine, MVVM, and Lottie |
+| **AI/LLM**  | [NLP2CRUD](./ai/nlp2crud) — Generate ready-to-use FastAPI CRUD APIs from natural language prompts using LLMs |
+
+---
 
 ## 🧠 What's Included
 
@@ -16,6 +20,7 @@ Welcome to my personal development portfolio — a collection of real-world samp
 - RESTful APIs with Swagger/OpenAPI
 - Unit tests using Pytest or equivalents
 - Modular folder structure for learning and extension
+- LLM-powered intelligent tooling
 
 ---
 
@@ -28,22 +33,22 @@ my-dev-portfolio/
 │
 ├── python/
 │   ├── python-crud-apis/         ← Flask + FastAPI project
-│   └── ...                       ← Future Python projects
+│   └── ...
 │
 ├── mobile/
-│   ├── swiftui/
-│   │   └── combine-weather/      ← Native iOS SwiftUI app
+│   └── swiftui/
+│       └── combine-weather/      ← Native iOS SwiftUI app
 │
 ├── ai/
-│   └── ..../
+│   └── nlp2crud/                 ← LLM-powered CRUD generator
 │
 ├── java/
-│   └── ..../
+│   └── ...
 │
 ├── html-css/
-│   └── ..../
-
+│   └── ...
 ```
+
 ---
 
 ## 🧬 How to Use
@@ -51,21 +56,28 @@ my-dev-portfolio/
 You can clone this repo and navigate into any folder to explore or run a specific project:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/my-dev-portfolio.git
-cd my-dev-portfolio/python/python-crud-apis
+git clone https://github.com/nageshkumarmishra/my-dev-portfolio.git
+cd my-dev-portfolio/ai/nlp2crud
 ```
+
+Each folder contains its own setup instructions and README.
 
 ---
 
 ## 🧪 Status
 
 - [x] Python CRUD API (Flask + FastAPI)
+- [x] NLP2CRUD (LLM-based CRUD generator)
+- [ ] More AI tools
+- [ ] Kotlin mobile template
+
 ---
 
 ## 🙋 About Me
 
 **Nagesh Kumar Mishra**  
-🔗 [LinkedIn](https://linkedin.com/in/nageshkumarmishra) | 🐙 [GitHub](https://github.com/nageshkumarmishra)
+🔗 [LinkedIn](https://linkedin.com/in/nageshkumarmishra)  
+🐙 [GitHub](https://github.com/nageshkumarmishra)
 
 ---
 

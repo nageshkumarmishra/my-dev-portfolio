@@ -44,6 +44,13 @@ python cli.py "Manage inventory with items (name, count, price)" --run
 
 ---
 
+
+```bash
+python cli.py "Create an API for BooksDelivery that stores information about book deliveries. Each delivery should include: a unique delivery_id as the primary key, the delivery_date as a datetime field, a recipient_name (string), a recipient_email (string, must be unique), the status of delivery (e.g., 'pending', 'shipped', 'delivered'), stored as a string, the book_id (int), which should be a foreign key referencing a Book model. The Book model should include: book_id as primary key, title (string), author (string), published_year (integer), price (float)." --run
+```
+
+---
+
 ## 📁 Folder Structure
 
 ```
@@ -92,3 +99,13 @@ pytest
 MIT — Use, modify, and share with credit.
 
 ---
+
+## 🖼️ Screenshots
+
+<img width="2056" alt="Screenshot 2025-06-02 at 00 12 07" src="https://github.com/user-attachments/assets/e496e0ad-e8b8-4938-8d18-e0b5a7c3cb4c" />
+<img width="2056" alt="Screenshot 2025-06-02 at 00 12 19" src="https://github.com/user-attachments/assets/32035e66-9dbd-4cde-b83c-724fefaa98a6" />
+<img width="1924" alt="Screenshot 2025-06-01 at 22 05 58" src="https://github.com/user-attachments/assets/e85f6ffc-0ae1-4a24-bc9a-b9d4a3334993" />
+
+
+
+
