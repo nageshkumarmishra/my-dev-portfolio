@@ -1,0 +1,63 @@
+{
+  "database": {
+    "url": "sqlite:///./app.db"
+  },
+  "models": [
+    {
+      "name": "Delivery",
+      "fields": {
+        "delivery_id": {
+          "type": "int",
+          "primary_key": true
+        },
+        "delivery_date": {
+          "type": "datetime"
+        },
+        "recipient_name": {
+          "type": "str"
+        },
+        "recipient_email": {
+          "type": "str",
+          "unique": true
+        },
+        "status": {
+          "type": "str",
+          "enum": [
+            "pending",
+            "shipped",
+            "delivered"
+          ]
+        },
+        "book_id": {
+          "type": "int",
+          "foreign_key": {
+            "referring_table": "Book",
+            "field": "book_id"
+          }
+        }
+      }
+    },
+    {
+      "name": "Book",
+      "fields": {
+        "book_id": {
+          "type": "int",
+          "primary_key": true
+        },
+        "title": {
+          "type": "str"
+        },
+        "author": {
+          "type": "str"
+        },
+        "published_year": {
+          "type": "int",
+          "nullable": true
+        },
+        "price": {
+          "type": "float"
+        }
+      }
+    }
+  ]
+}
