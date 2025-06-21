@@ -11,7 +11,7 @@ Welcome to my personal development portfolio — a collection of real-world samp
 | **Python**  | [python-crud-apis](./python/python-crud-apis) — CRUD API with Flask & FastAPI |
 | **Mobile**  | [CombineWeather (SwiftUI)](./mobile/swiftui/CombineWeather) — Native iOS weather app using Combine, MVVM, and Lottie |
 | **AI/LLM**  | [NLP2CRUD](./ai/nlp2crud) — Generate ready-to-use FastAPI CRUD APIs from natural language prompts using LLMs |
-|             | [ai-image-generator](./ai/ai-image-generator) — Generate AI images from text using Nebius + Flux-Dev |
+|             | [ai-image-generator](./ai/ai_image_generator) — Generate AI images from text using Nebius + Flux-Dev |
 
 ---
 
